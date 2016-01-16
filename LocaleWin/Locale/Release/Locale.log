@@ -1,0 +1,128 @@
+﻿Build started 1/16/2016 12:32:50 PM.
+     1>Project "C:\tmp\LocaleWin\Locale\Locale.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LOCALEWIN_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GetLocaleInfo.cpp Locale.cpp
+         GetLocaleInfo.cpp
+         Locale.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(600): warning C4244: 'initializing' : conversion from 'wchar_t' to 'unsigned char', possible loss of data
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(723) : see reference to function template instantiation 'void std::allocator<_Ty>::construct<_Objty,wchar_t&>(_Objty *,wchar_t &)' being compiled
+                 with
+                 [
+                     _Ty=uint8_t
+         ,            _Objty=unsigned char
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(723) : see reference to function template instantiation 'void std::allocator<_Ty>::construct<_Objty,wchar_t&>(_Objty *,wchar_t &)' being compiled
+                 with
+                 [
+                     _Ty=uint8_t
+         ,            _Objty=unsigned char
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(872) : see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,wchar_t&>(std::allocator<_Ty> &,_Objty *,wchar_t &)' being compiled
+                 with
+                 [
+                     _Alloc=std::allocator<uint8_t>
+         ,            _Ty=unsigned char
+         ,            _Objty=unsigned char
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(872) : see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,wchar_t&>(std::allocator<_Ty> &,_Objty *,wchar_t &)' being compiled
+                 with
+                 [
+                     _Alloc=std::allocator<uint8_t>
+         ,            _Ty=unsigned char
+         ,            _Objty=unsigned char
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(378) : see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Ty>>::construct<unsigned char,wchar_t&>(_Ty *,wchar_t &)' being compiled
+                 with
+                 [
+                     _Ty=uint8_t
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(378) : see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Ty>>::construct<unsigned char,wchar_t&>(_Ty *,wchar_t &)' being compiled
+                 with
+                 [
+                     _Ty=uint8_t
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(416) : see reference to function template instantiation '_FwdIt std::_Uninit_copy<_InIt,_FwdIt,std::allocator<_Ty>>(_InIt,_InIt,_FwdIt,std::_Wrap_alloc<std::allocator<_Ty>> &,std::_Nonscalar_ptr_iterator_tag)' being compiled
+                 with
+                 [
+                     _FwdIt=unsigned char *
+         ,            _InIt=wchar_t *
+         ,            _Ty=uint8_t
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory(427) : see reference to function template instantiation '_FwdIt std::_Uninit_copy<wchar_t*,_Iter,_Alloc>(_InIt,_InIt,_FwdIt,_Alloc &)' being compiled
+                 with
+                 [
+                     _FwdIt=unsigned char *
+         ,            _Iter=unsigned char *
+         ,            _Alloc=std::_Wrap_alloc<std::allocator<uint8_t>>
+         ,            _InIt=wchar_t *
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(1640) : see reference to function template instantiation '_FwdIt std::_Uninitialized_copy<_Iter,unsigned char*,std::_Wrap_alloc<std::allocator<_Ty>>>(_InIt,_InIt,_FwdIt,_Alloc &)' being compiled
+                 with
+                 [
+                     _FwdIt=unsigned char *
+         ,            _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+         ,            _Ty=uint8_t
+         ,            _InIt=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+         ,            _Alloc=std::_Wrap_alloc<std::allocator<uint8_t>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(789) : see reference to function template instantiation 'unsigned char *std::vector<uint8_t,std::allocator<_Ty>>::_Ucopy<_Iter>(_Iter,_Iter,unsigned char *)' being compiled
+                 with
+                 [
+                     _Ty=uint8_t
+         ,            _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(789) : see reference to function template instantiation 'unsigned char *std::vector<uint8_t,std::allocator<_Ty>>::_Ucopy<_Iter>(_Iter,_Iter,unsigned char *)' being compiled
+                 with
+                 [
+                     _Ty=uint8_t
+         ,            _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(766) : see reference to function template instantiation 'void std::vector<uint8_t,std::allocator<_Ty>>::_Construct<_Iter>(_Iter,_Iter,std::forward_iterator_tag)' being compiled
+                 with
+                 [
+                     _Ty=uint8_t
+         ,            _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(766) : see reference to function template instantiation 'void std::vector<uint8_t,std::allocator<_Ty>>::_Construct<_Iter>(_Iter,_Iter,std::forward_iterator_tag)' being compiled
+                 with
+                 [
+                     _Ty=uint8_t
+         ,            _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(751) : see reference to function template instantiation 'void std::vector<uint8_t,std::allocator<_Ty>>::_Construct<_Iter>(_Iter,_Iter)' being compiled
+                 with
+                 [
+                     _Ty=uint8_t
+         ,            _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(751) : see reference to function template instantiation 'void std::vector<uint8_t,std::allocator<_Ty>>::_Construct<_Iter>(_Iter,_Iter)' being compiled
+                 with
+                 [
+                     _Ty=uint8_t
+         ,            _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+                 ]
+                 Locale.cpp(16) : see reference to function template instantiation 'std::vector<uint8_t,std::allocator<_Ty>>::vector<std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,void>(_Iter,_Iter)' being compiled
+                 with
+                 [
+                     _Ty=uint8_t
+         ,            _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+                 ]
+                 Locale.cpp(16) : see reference to function template instantiation 'std::vector<uint8_t,std::allocator<_Ty>>::vector<std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,void>(_Iter,_Iter)' being compiled
+                 with
+                 [
+                     _Ty=uint8_t
+         ,            _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\tmp\LocaleWin\Release\Locale.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\tmp\LocaleWin\Release\Locale.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\tmp\LocaleWin\Release\Locale.lib" /MACHINE:X86 /SAFESEH /DLL Release\GetLocaleInfo.obj
+         Release\Locale.obj
+         ..\..\..\flex_sdk\4.9.1_AIR19\lib\win\FlashRuntimeExtensions.lib
+            Creating library C:\tmp\LocaleWin\Release\Locale.lib and object C:\tmp\LocaleWin\Release\Locale.exp
+         Generating code
+         Finished generating code
+         Locale.vcxproj -> C:\tmp\LocaleWin\Release\Locale.dll
+     1>Done Building Project "C:\tmp\LocaleWin\Locale\Locale.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.91
